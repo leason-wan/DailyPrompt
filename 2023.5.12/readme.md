@@ -1,0 +1,10 @@
+【每日prompt】
+什么是langchain 的 Chains？
+Chains允许我们组合各种组件，自定义组件，langchain组件，包括Chains去创建应用。
+llm和prompt组合可以创建一个chain，加入memory可以创建一个stateful chain。
+SequentialChain可以将不同的chain组合在一起进行时序化调用。
+load_summarize_chain可以总结文本，load_qa_with_sources_chain可以与文本对话并给出引用。
+HypotheticalDocumentEmbedder可以预生成结果并存储。
+APIChain可以用自然语言调用api。
+
+下面是langchain官方列出的所有chain。
